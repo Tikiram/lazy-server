@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var LocalStorage = require('node-localstorage').LocalStorage;
 
-const localStorage = new LocalStorage('./scratch');
+const localStorage = new LocalStorage('./storage/something');
 
 function getEntryKeys(){
     const entries = [];
