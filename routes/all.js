@@ -58,7 +58,7 @@ router.get('/', function( { originalUrl } , res, next) {
             }
         }
         catch (e) {
-            console.log(e);
+            // console.log(e);
             console.error('Error:', e.response.config.url);
             console.error('Status:', e.response.status);
             console.error('StatusText:', e.response.statusText);
@@ -98,7 +98,7 @@ router.post('/', function( { body, originalUrl } , res, next) {
             }
         }
         catch (e) {
-            console.log(e);
+            // console.log(e);
             console.error('Error:', e.response.config.url);
             console.error('Status:', e.response.status);
             console.error('StatusText:', e.response.statusText);

@@ -38,7 +38,7 @@ app.use(function (req, res, next) {
 
 app.use('/_api/entries', entriesRouter);
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/_api/hope', usersRouter);
 app.use('*', allRouter);
 
 module.exports = app;
